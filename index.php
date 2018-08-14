@@ -52,13 +52,7 @@ else
     $username = "";
     $password = "Please Log in";
 }
-
-
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,11 +64,13 @@ else
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+ 
+ <header><h1 class="heading" style="margin-left:490px;position:relative;top:0px;">Sign-in</h1></header>
 <div class="container">
 <div class="well well-xs">   
 
     <?php echo $message ?>
-
+    <br>
     <?php 
 
         echo has_errors($errors);
