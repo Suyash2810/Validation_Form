@@ -1,0 +1,16 @@
+body{
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.form-group{
+    margin-left: 39%;
+}
+
+body{
+   background:  linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 39%, rgba(73,165,191,1) 100%);
+}
+
+.well{
+    width: 1000px;
+}
